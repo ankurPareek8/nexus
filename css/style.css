@@ -79,6 +79,28 @@ ul, ol, dl {list-style-position: outside; margin-bottom: 25px}
 /* font family */
 .alt-font {font-family: 'Montserrat', sans-serif; font-weight: 500}
 .main-font {font-family: 'Roboto', sans-serif;}
+@font-face{
+    font-family: 'Justus Pro';
+    src: url("../fonts/justus-pro/Justus-Pro.ttf");
+}
+.nexus-font-heading{
+    font-family: Justus Pro ;
+}
+@font-face{
+    font-family: "Raleway";
+    src: url("../fonts/raleway/Raleway-Bold.ttf");
+}
+.nexus-font-sub-heading{
+    font-family: Raleway ;
+}
+@font-face{
+    font-family: 'Raleway-Regular';
+    font-weight: Regular; 
+    src: url("../fonts/raleway/Raleway-Regular.ttf");
+}
+.nexus-font-copy-text{
+    font-family:Raleway-Regular ;
+}
 
 /* heading */
 h1, h2, h3, h4, h5, h6 {margin:0 0 25px; padding:0; letter-spacing: 0; font-weight: 400;}
@@ -402,7 +424,7 @@ textarea.input-bg {background-color: #f7f7f7; border-radius: 4px; border: 1px so
     Button
 ====================================== */
 
-.btn {display:inline-block; border:2px solid transparent; letter-spacing: .5px; line-height: inherit; border-radius: 0; text-transform: uppercase; width: auto; font-family: 'Montserrat', sans-serif; font-weight: 600; transition-duration: 0.3s; transition-timing-function: ease-in-out}
+.btn {display:inline-block; border:2px solid transparent; letter-spacing: .5px; line-height: inherit; border-radius: 0; text-transform: uppercase; width: auto; /*font-family: 'Montserrat', sans-serif;*/; font-weight: 600; transition-duration: 0.3s; transition-timing-function: ease-in-out}
 
 /* button size */
 .btn.btn-very-small {font-size:9px; padding: 1px 17px; line-height: 22px;}
@@ -1638,7 +1660,7 @@ textarea.input-bg {background-color: #f7f7f7; border-radius: 4px; border: 1px so
 ================================*/
 
 .position-inherit {position:inherit !important}
-.position-relative {background: #1c1c1c; position:relative !important; }
+.position-relative {/*background: #1c1c1c;*/ position:relative !important; }
 .position-absolute {position:absolute !important;}
 .position-fixed {position:fixed !important;}
 .position-right {right:0 !important;}
@@ -2054,7 +2076,7 @@ a.likes-count span {position: relative; top: -1px}
 
 /* icon hover effect style 8 */
 .social-icon-style-8 ul li a {text-align: center; width: auto; height: auto}
-.social-icon-style-8 a:hover { color: #ff214f;}
+.social-icon-style-8 a:hover { color: #FF7F00;}
 
 /* icon hover effect style 9 */
 .social-icon-style-9 ul li a {text-align: center; width: auto; height: auto}
@@ -3750,6 +3772,7 @@ aside .latest-post li figure {width: 75px;}
 .color-4 {background-color: #6b0990;}
 .color-5 {background-color: #4c0990;}
 .color-6 {background-color: #1b3194;}
+.color-7-white {color:#ffffff};
 
 /* home - classic web agency */
 .after-before-separator:before, .after-before-separator:after {width: 35px; margin: 0 15px; height: 1px; background: rgba(255,255,255,.2); content: ""; display: inline-block; vertical-align: super;}
